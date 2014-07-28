@@ -37,3 +37,29 @@ body, html {
     margin-top: 50px;
     opacity: 0.4;
 }
+
+#text:hover {
+    color: rgb(210,20,50);
+}
+
+@font-face {
+    font-family: '../fonts/OrbitronBlack.otf';
+    src: url('../fonts/orbitron-black-webfont.eot');
+    url('../fonts/orbitron-black-webfont.woff') format('woff'),
+    url('../fonts/orbitron-black-webfont.ttf') format('truetype'),
+    url('orbitron-black-webfont.svg#OrbitronBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/OrbitronLight.otf';
+    src: url('../fonts/orbitron-light-webfont.eot');
+    url('../fonts/orbitron-light-webfont.woff') format('woff'),
+    url('../fonts/orbitron-light-webfont.ttf') format('truetype'),
+    url('orbitron-light-webfont.svg#OrbitronLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
